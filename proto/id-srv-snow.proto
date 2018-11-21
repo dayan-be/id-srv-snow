@@ -1,0 +1,15 @@
+syntax="proto3";
+package platform.id.srv.snow;
+
+service Snow {
+    rpc GetId(GetIdReq) returns (GetIdResp);
+}
+
+
+message GetIdReq{
+    int64 num = 1;
+}
+
+message GetIdResp{
+    repeated int64 ids = 1;
+}

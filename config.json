@@ -1,0 +1,19 @@
+{
+  "registry":{
+    "addr": "127.0.0.1:8500"
+  },
+
+  "srv":{
+    "srvName": "id-srv-snow",
+    "srvId": 0,
+    "addr":"0.0.0.0:9999",
+    "version":"0.0.0"
+  },
+
+  "log":{
+    "level": "debug",
+    "fileSize": 10,
+    "fileSizeUnit": "M",
+    "jsonFile": false
+  },
+}
