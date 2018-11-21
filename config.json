@@ -4,7 +4,7 @@
   },
 
   "srv":{
-    "srvName": "id-srv-snow",
+    "srvName":"id.srv.snow",
     "srvId": 0,
     "addr":"0.0.0.0:9999",
     "version":"0.0.0"
@@ -15,5 +15,5 @@
     "fileSize": 10,
     "fileSizeUnit": "M",
     "jsonFile": false
-  },
+  }
 }
